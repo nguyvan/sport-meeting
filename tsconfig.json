@@ -1,0 +1,19 @@
+{
+    "include": ["./src/"],
+    "exclude": ["./database", "./middleware", "./node_modules","./sport-places-request","./test","./_log"],
+    "compilerOptions": {
+      "rootDir": "./src/",
+      "outDir": "./",
+      "watch" : true,
+      "target": "es2019",
+      "module": "commonjs",
+      "preserveWatchOutput": true,
+      "strict": true,         
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "allowJs": false,
+      "noEmit": true
+    }
+}
